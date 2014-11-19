@@ -1,26 +1,20 @@
 # IrbAffirmations
 
-TODO: Write a gem description
+Thanks to @tehviking and his 2014 Rubyconf talk. Sometimes when working
+on a C extension you sometimes need some affirmations in your irb. I've
+tried to provide that for him.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'irb_affirmations'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install irb_affirmations
+$ gem install irb_affirmations
 
 ## Usage
 
-TODO: Write usage instructions here
+Add this line to your .irbrc:
+
+```ruby
+require 'irb_affirmations'
+```
 
 ## Contributing
 
