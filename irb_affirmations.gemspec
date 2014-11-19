@@ -8,9 +8,13 @@ Gem::Specification.new do |spec|
   spec.version       = IrbAffirmations::VERSION
   spec.authors       = ["Amos L King"]
   spec.email         = ["amos.l.king@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Add affirmations to irb}
+  spec.description   = %{
+  Thanks to @tehviking and his 2014 Rubyconf talk. Sometimes when working
+  on a C extension you sometimes need some affirmations in your irb. I've
+  tried to provide that for him.
+  }
+  spec.homepage      = "http://github.com/adkron/irb_affirmations"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
